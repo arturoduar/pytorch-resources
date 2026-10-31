@@ -1,0 +1,12 @@
+site_name: PyTorch Examples
+site_description: Runnable, tested and deployable PyTorch examples.
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Examples: examples.md
+  - Notebooks: notebooks.md
+  - Deployment: deployment.md
+  - Testing: testing.md
+  - API reference: api.md

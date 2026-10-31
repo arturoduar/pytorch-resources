@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    image: pytorch-examples:latest
+    ports:
+      - "8000:8000"
+    # Cache trained weights in a volume so restarts skip training.
+    command: ["serve", "--host", "0.0.0.0", "--port", "8000", "--checkpoint", "/models/mlp.pt"]
+    volumes:
+      - models:/models
+    restart: unless-stopped
+
+volumes:
+  models:
