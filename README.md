@@ -1,4 +1,4 @@
-# pytorch-examples
+# pytorch-resources
 
 Runnable, tested and deployable PyTorch examples, with documentation and Jupyter notebooks.
 
@@ -26,8 +26,8 @@ pytest
 ## What is in the box
 
 ```
-pytorch_examples/
-├── src/pytorch_examples/
+pytorch_resources/
+├── src/pytorch_resources/
 │   ├── examples/          five runnable examples + registry
 │   ├── data.py            synthetic datasets and loaders
 │   ├── models.py          MLP, SmallCNN, LSTMClassifier
